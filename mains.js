@@ -41,3 +41,11 @@ export const count1 = (frase) => {
   let palabras = frase.split(' ');
   return palabras.length;
 };
+
+//Crea una función que ordene un array de nombres alfabéticamente.
+
+export const abcd = (nombres) => {
+  let orden = nombres.sort();
+  return orden;
+  // return nombres.sort();
+};
