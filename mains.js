@@ -49,3 +49,24 @@ export const abcd = (nombres) => {
   return orden;
   // return nombres.sort();
 };
+
+//Generador de números pares e impares: Escribe una función que tome un número como argumento y genere dos arrays, uno con los números pares
+//hasta ese número y otro con los números impares hasta ese número.
+
+export const evensOdds = (numero) => {
+  let evens = [];
+  let odds = [];
+  for (let i = 0; i <= numero; i++) {
+    if (i % 2 === 0) {
+      evens.push(i);
+    }
+    if (i % 2 !== 0) {
+      odds.push(i);
+    }
+  }
+
+  return { evens, odds };
+};
+
+//Crea una función que reciba un texto y devuelva el mismo texto con todas las vocales acentuadas reemplazadas
+// por vocales sin acentuar y todas las vocales sin acentuar reemplazadas por vocales acentuadas.
