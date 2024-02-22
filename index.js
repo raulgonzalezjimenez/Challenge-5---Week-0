@@ -1,6 +1,6 @@
 import { password, names, count1, abcd, evensOdds } from './mains.js';
 
-console.log(password(30));
+console.log(password(6));
 
 console.log(names(4, ['raul', 'mireya', 'jose', 'eduardo', 'diego', 'alex']));
 
